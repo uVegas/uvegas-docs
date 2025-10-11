@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn about the hardware, software, and dependencies required to run uVegas on
+  both client and dedicated server environments.
+---
+
 # System Requirements
 
 uVegas assets are built and optimized for **Unity 6.0+ (2025 LTS)** and take full advantage of its performance and networking improvements.\
