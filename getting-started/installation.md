@@ -42,7 +42,7 @@ You can find more information in the official Mirror Networking documentation:\
 
 After installation, you need to add the uVegas scenes to your **Build Settings**.
 
-1. Navigate to: Assets/uVegas/Scenes/
+1. Navigate to: `Assets/uVegas/Scenes/`
 2. Add the following scene(s) to your Build Settings (`File → Build Settings → Scenes In Build`):
 
 * `Main.unity`
