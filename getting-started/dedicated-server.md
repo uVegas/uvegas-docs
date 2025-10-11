@@ -65,7 +65,7 @@ uVegas is compatible with both **Windows** and **Linux** dedicated builds.
 **Notes:**
 
 * Unity will run the server **headlessly** - no rendering or window is created.
-* Mirror automatically initializes networking based on your configuration file.
+* Mirror automatically initializes networking based on your configuration.
 * Logs are written to the specified file (`server.log`), which is useful for monitoring server activity, debugging, and analyzing connections.
 
 ***
@@ -73,8 +73,3 @@ uVegas is compatible with both **Windows** and **Linux** dedicated builds.
 #### 📚 Reference
 
 For advanced hosting and deployment options, refer to the official [Mirror documentation](https://mirror-networking.gitbook.io/).
-
-***
-
-> 💡 Tip: Unity generates server logs automatically (e.g., `Player.log`).\
-> You can monitor these logs to verify connections, errors, and gameplay events during runtime.
