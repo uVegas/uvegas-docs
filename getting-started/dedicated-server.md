@@ -17,8 +17,10 @@ When built as a **headless server**, Mirror automatically starts the server on l
 
 Server configuration parameters (such as host and port) can be overridden using the provided config file.
 
-**Important:** The `server.cfg` is intended for **dedicated server builds**.\
-After building your server, place the configuration file in the `config` folder inside the build directory to override the default host and port.
+**Important:** The `server.cfg` is **intended for dedicated server builds** and is **optional**.\
+If the file is not present, uVegas will use the default host, port, and other network settings defined in the `VegasNetworkManager`.
+
+After building your server, place the configuration file in the `config` folder inside the build directory to override the default values.
 
 Example:
 
@@ -27,6 +29,8 @@ Example:
 host=0.0.0.0
 port=7777
 ```
+
+When running multiple server instances on the same machine, provide a different port for each configuration file to avoid conflicts.
 
 ***
 
@@ -60,7 +64,7 @@ uVegas is compatible with both **Windows** and **Linux** dedicated builds.
 
 **Notes:**
 
-* Unity will run the server **headlessly** — no rendering or window is created.
+* Unity will run the server **headlessly** - no rendering or window is created.
 * Mirror automatically initializes networking based on your configuration file.
 * Logs are written to the specified file (`server.log`), which is useful for monitoring server activity, debugging, and analyzing connections.
 
