@@ -1,7 +1,6 @@
 # Installation
 
-uVegas assets are installed via the **Unity Package Manager** and integrate seamlessly into new or existing Unity projects.\
-The setup process is straightforward and requires no modification of your existing project settings.
+uVegas assets are installed via the **Unity Package Manager** and integrate seamlessly into new or existing Unity projects. The setup process is straightforward and requires no modification of your existing project settings.
 
 ***
 
@@ -27,9 +26,6 @@ Open **Edit → Project Settings → Player** and verify:
 
 * **Run In Background:** ✅ Enabled\
   This ensures the client and server continue processing while not in focus, which is essential for Mirror-based multiplayer systems.
-* **Auto Graphics API (Windows):** Optional\
-  Can be disabled to force DirectX11/12 if compatibility issues arise.
-* **Scripting Backend:** IL2CPP or Mono (depending on platform requirements)
 
 You can find more information in the official Mirror Networking documentation:\
 [Mirror Networking Documentation →](https://mirror-networking.gitbook.io/docs/)
@@ -48,8 +44,6 @@ After installation, you need to add the uVegas scenes to your **Build Settings**
 This **Main Scene** is used for both **client** and **server** instances.\
 It contains all necessary components for initialization and can be launched directly in the Unity **Play Mode** to test uVegas locally.
 
-> 💡 Tip: You can duplicate the Main Scene for custom implementations (e.g., "Lobby" or "CustomRoom") without breaking the base multiplayer logic.
-
 ***
 
 ### 🖥️ Running in the Editor
@@ -58,19 +52,19 @@ To test multiplayer behavior locally, uVegas supports Unity’s **Multiplayer Pl
 
 This feature allows you to run **multiple player instances directly within the Unity Editor**, simulating both server and client connections without building separate executables.
 
-#### Using Multiplayer Play Mode
+#### 🧪 Using Multiplayer Play Mode
 
-1. Install the official Unity package:\
-   [Unity Multiplayer Play Mode →](https://docs.unity3d.com/Packages/com.unity.multiplayer.playmode@latest)
-2. Open your **Main Scene** (`Assets/uVegas/Scenes/Main.unity`).
-3. Configure the desired number of clients and servers in the Multiplayer Play Mode panel.
-4. Press **Play** — all instances will connect automatically, allowing you to test synchronization, game logic, and table joining directly in the Editor.
+Install the official Unity package:\
+[Unity Multiplayer Play Mode →](https://docs.unity3d.com/Packages/com.unity.multiplayer.playmode@latest)
 
-> 💡 This workflow is ideal for rapid iteration and debugging before deploying a dedicated server build.
+1. Open your **Main Scene** (`Assets/uVegas/Scenes/Main.unity`).
+2. In the **Multiplayer Play Mode** panel, configure how many **Editor instances to open**.
+3. Press **Play** to launch the configured Editor instances.
+4. In each Editor instance use our custom **Mirror Network GUI** (Host, Client, or Server) to start the desired role and establish connections.
+
+This allows you to test synchronization, gameplay logic, and table joining workflows directly within the Unity Editor - without building standalone executables.
 
 ***
-
-uVegas is fully compatible with **Unity’s multiplayer testing tools**, providing a smooth and efficient local development experience.
 
 ### 🔗 Dependencies
 
@@ -93,4 +87,4 @@ No additional Mirror installation is required.
 
 ***
 
-uVegas is designed to be **plug-and-play**, providing a clean modular structure that integrates naturally into any Unity multiplayer project — without conflicts, overrides, or unnecessary configuration.
+uVegas is designed to be **plug-and-play**, providing a clean modular structure that integrates naturally into any Unity multiplayer project - without conflicts, overrides, or unnecessary configuration.
