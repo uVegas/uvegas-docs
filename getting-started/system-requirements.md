@@ -1,6 +1,6 @@
 # System Requirements
 
-uVegas assets are built and optimized for **Unity 6 (2025 LTS)** and take full advantage of its performance and networking improvements.\
+uVegas assets are built and optimized for **Unity 6.0+ (2025 LTS)** and take full advantage of its performance and networking improvements.\
 All games and multiplayer components are designed to run efficiently on both **client** and **dedicated server** environments.
 
 For detailed Unity hardware requirements, please refer to the official documentation:\
@@ -58,7 +58,7 @@ uVegas uses **Mirror Networking** for all multiplayer functionality.
 
 * **Mirror Version:** Bundled directly with the asset to ensure compatibility.
 * The included version is regularly updated to match stable Mirror releases.
-* No external installation of Mirror is required — the package includes all dependencies.
+* No external installation of Mirror is required - the package includes all dependencies.
 
 Developers can check the exact Mirror version in the `Assets/uVegas/Dependencies/Mirror` folder.
 
@@ -74,4 +74,4 @@ Developers can check the exact Mirror version in the `Assets/uVegas/Dependencies
 
 ***
 
-uVegas is designed to be **easy to deploy, modular, and scalable** — whether you host a small test environment or a large-scale multiplayer casino.
+uVegas is designed to be **easy to deploy, modular, and scalable** - whether you host a small test environment or a large-scale multiplayer casino.
