@@ -24,4 +24,6 @@ In addition to component-level settings, uVegas provides **global game settings*
 
 All configuration options can be modified at any time in the Unity Editor. Detailed documentation for each setting is available in the **component-specific docs** for each game (Blackjack, Poker, Roulette, Slots).
 
-💡 **Tip:** For quick testing, use the default configurations provided in each asset. You can create multiple presets for different gameplay styles and switch between them at runtime.
+💡 **Tip:**\
+uVegas comes with **default configurations** that reflect authentic casino rules and gameplay settings.\
+For additional or specialized tables, you can **duplicate these default setups** and adjust parameters such as table rules, limits, card decks, and chip styles to create custom gameplay experiences.
