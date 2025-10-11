@@ -49,17 +49,20 @@ uVegas is compatible with both **Windows** and **Linux** dedicated builds.
 **Windows (PowerShell)**
 
 ```powershell
-./uVegasServer.exe -batchmode -nographics
+./uVegasServer.exe -batchmode -nographics -logFile server.log
 ```
 
 **Linux (Terminal)**
 
 ```bash
-./uVegasServer.x86_64 -batchmode -nographics
+./uVegasServer.x86_64 -batchmode -nographics -logFile server.log
 ```
 
-Unity will run the server headlessly - no rendering or window is created.\
-Mirror automatically initializes networking based on your configuration file.
+**Notes:**
+
+* Unity will run the server **headlessly** — no rendering or window is created.
+* Mirror automatically initializes networking based on your configuration file.
+* Logs are written to the specified file (`server.log`), which is useful for monitoring server activity, debugging, and analyzing connections.
 
 ***
 
