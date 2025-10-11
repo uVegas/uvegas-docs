@@ -49,13 +49,13 @@ uVegas is compatible with both **Windows** and **Linux** dedicated builds.
 **Windows (PowerShell)**
 
 ```powershell
-./uVegasServer.exe -batchmode -nographics -config ./config/server.cfg
+./uVegasServer.exe -batchmode -nographics
 ```
 
 **Linux (Terminal)**
 
 ```bash
-./uVegasServer.x86_64 -batchmode -nographics -config ./config/server.cfg
+./uVegasServer.x86_64 -batchmode -nographics
 ```
 
 Unity will run the server headlessly — no rendering or window is created.\
@@ -65,8 +65,7 @@ Mirror automatically initializes networking based on your configuration file.
 
 #### 📚 Reference
 
-For advanced hosting and deployment options, refer to the official Mirror documentation:\
-https://mirror-networking.gitbook.io
+For advanced hosting and deployment options, refer to the official [Mirror documentation](https://mirror-networking.gitbook.io/).
 
 ***
 
