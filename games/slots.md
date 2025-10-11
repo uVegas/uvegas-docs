@@ -1,6 +1,6 @@
 ---
 description: >-
-  Overview of the upcoming uVegas Slot Machines asset — customizable slots with
+  Overview of the upcoming uVegas Slot Machines asset - customizable slots with
   multiplayer features (coming 2026).
 ---
 

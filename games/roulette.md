@@ -1,6 +1,6 @@
 ---
 description: >-
-  Overview of the upcoming uVegas Roulette asset — European & American roulette
+  Overview of the upcoming uVegas Roulette asset - European & American roulette
   tables with multiplayer support (coming 2026).
 ---
 
