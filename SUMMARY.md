@@ -4,8 +4,8 @@
 * [Getting Started](getting-started/README.md)
   * [System Requirements](getting-started/system-requirements.md)
   * [Installation](getting-started/installation.md)
+  * [Basic Configuration](getting-started/basic-configuration.md)* 
   * [Dedicated Server](getting-started/dedicated-server.md)
-  * [Basic Configuration](getting-started/basic-configuration.md)
 * [General Features](general-features/README.md)
   * [Player Management](general-features/player-management.md)
   * [Networking](general-features/networking.md)
