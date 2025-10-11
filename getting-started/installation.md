@@ -54,14 +54,43 @@ It contains all necessary components for initialization and can be launched dire
 
 ### 🖥️ Running in the Editor
 
-To test uVegas locally:
+To test multiplayer behavior locally, uVegas supports Unity’s **Multiplayer Play Mode**.
 
-1. Open the `Main` scene.
-2. Press **Play** — the local client and server simulation will start automatically.
-3. Use the Unity Console for live logs (Mirror messages, connection info, etc.).
+This feature allows you to run **multiple player instances directly within the Unity Editor**, simulating both server and client connections without building separate executables.
 
-For multiplayer tests, you can also **build a standalone server** using the standard Unity headless mode:
+#### Using Multiplayer Play Mode
 
-```bash
-Unity.exe -batchmode -nographics -executeMethod BuildScript.PerformServerBuild
-```
+1. Install the official Unity package:\
+   [Unity Multiplayer Play Mode →](https://docs.unity3d.com/Packages/com.unity.multiplayer.playmode@latest)
+2. Open your **Main Scene** (`Assets/uVegas/Scenes/Main.unity`).
+3. Configure the desired number of clients and servers in the Multiplayer Play Mode panel.
+4. Press **Play** — all instances will connect automatically, allowing you to test synchronization, game logic, and table joining directly in the Editor.
+
+> 💡 This workflow is ideal for rapid iteration and debugging before deploying a dedicated server build.
+
+***
+
+uVegas is fully compatible with **Unity’s multiplayer testing tools**, providing a smooth and efficient local development experience.
+
+### 🔗 Dependencies
+
+uVegas includes the **Mirror Networking** framework, already preconfigured for stable operation.\
+The bundled version is updated regularly and pinned to a specific commit for reliability.
+
+No additional Mirror installation is required.
+
+***
+
+### ✅ Summary
+
+| Step                                | Description                                               |
+| ----------------------------------- | --------------------------------------------------------- |
+| **1. Install via Package Manager**  | Download and import uVegas                                |
+| **2. Adjust Project Settings**      | Enable “Run in Background” and verify Unity configuration |
+| **3. Add Scenes to Build Settings** | Add `Main.unity` from `Assets/uVegas/Scenes/`             |
+| **4. Play in Editor**               | Test locally with integrated Mirror networking            |
+| **5. (Optional)**                   | Build headless server for production use                  |
+
+***
+
+uVegas is designed to be **plug-and-play**, providing a clean modular structure that integrates naturally into any Unity multiplayer project — without conflicts, overrides, or unnecessary configuration.
