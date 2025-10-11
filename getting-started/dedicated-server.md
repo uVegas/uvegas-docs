@@ -58,7 +58,7 @@ uVegas is compatible with both **Windows** and **Linux** dedicated builds.
 ./uVegasServer.x86_64 -batchmode -nographics
 ```
 
-Unity will run the server headlessly — no rendering or window is created.\
+Unity will run the server headlessly - no rendering or window is created.\
 Mirror automatically initializes networking based on your configuration file.
 
 ***
