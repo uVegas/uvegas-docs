@@ -1,3 +1,9 @@
+---
+description: >-
+  Instructions for building, configuring, and launching uVegas dedicated servers
+  on Windows and Linux systems.
+---
+
 # Dedicated Server
 
 uVegas provides full support for **dedicated server hosting** based on Unity and Mirror.
