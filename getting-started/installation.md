@@ -1,3 +1,9 @@
+---
+description: >-
+  Step-by-step guide to installing uVegas via the Unity Package Manager and
+  setting up your project for multiplayer development.
+---
+
 # Installation
 
 uVegas assets are installed via the **Unity Package Manager** and integrate seamlessly into new or existing Unity projects. The setup process is straightforward and requires no modification of your existing project settings.
