@@ -19,7 +19,6 @@ Example:
 # server.cfg
 host=0.0.0.0
 port=7777
-maxPlayers=64
 ```
 
 When multiple instances run on the same machine, simply provide a different port per configuration.
@@ -62,7 +61,7 @@ Mirror automatically initializes networking based on your configuration file.
 #### 📚 Reference
 
 For advanced hosting and deployment options, refer to the official Mirror documentation:\
-https://mirror-networking.gitbook.io/docs/guides/servers
+https://mirror-networking.gitbook.io
 
 ***
 
