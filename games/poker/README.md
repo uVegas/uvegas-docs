@@ -1,5 +1,7 @@
 ---
-description: Overview of the upcoming uVegas Texas Hold’em Poker asset  (coming 2026).
+description: >-
+  Overview of the upcoming uVegas Poker asset — Texas Hold’em with multiplayer
+  support (coming 2026).
 ---
 
 # Poker
