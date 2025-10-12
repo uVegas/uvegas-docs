@@ -1,7 +1,8 @@
 ---
 description: >-
   uVegas UI system separates server logic from client interfaces, using
-  TableState and modular UI components for safe and scalable multiplayer UI.
+  synchronized state objects and modular UI components for safe and scalable
+  multiplayer interfaces.
 ---
 
 # UI Management
