@@ -1,7 +1,7 @@
 ---
 description: >-
-  Overview of uVegas core systems shared across all games, including player and
-  table management, lobby handling, and local game state.
+  Overview of uVegas core systems (framework) shared across all games, including
+  player and table management, lobby handling, and local game state.
 ---
 
 # General Features
