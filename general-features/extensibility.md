@@ -1,7 +1,7 @@
 ---
 description: >-
-  Overview of uVegas' UI system, highlighting how TableState drives client-side
-  interfaces while keeping game logic server-authoritative.
+  uVegas UI system separates server logic from client interfaces, using
+  TableState and modular UI components for safe and scalable multiplayer UI.
 ---
 
 # UI Management
