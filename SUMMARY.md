@@ -9,7 +9,7 @@
 * [General Features](general-features/README.md)
   * [Player Management](general-features/player-management.md)
   * [Table Management](general-features/table-management.md)
-  * [Game Managers](general-features/game-managers.md)
+  * [Game Managment](general-features/game-managers.md)
   * [Extensibility](general-features/extensibility.md)
 * [Games](games/README.md)
   * [Blackjack](games/blackjack/README.md)
