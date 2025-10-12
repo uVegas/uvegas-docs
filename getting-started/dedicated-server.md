@@ -50,17 +50,19 @@ uVegas is compatible with both **Windows** and **Linux** dedicated builds.
 
 #### ▶️ Running the Server
 
-**Windows (PowerShell)**
-
-```powershell
-./uVegasServer.exe -batchmode -nographics -logFile server.log
+{% tabs %}
+{% tab title="Linux" %}
 ```
-
-**Linux (Terminal)**
-
-```bash
 ./uVegasServer.x86_64 -batchmode -nographics -logFile server.log
 ```
+{% endtab %}
+
+{% tab title="Windows" %}
+```
+./uVegasServer.exe -batchmode -nographics -logFile server.log
+```
+{% endtab %}
+{% endtabs %}
 
 **Notes:**
 
