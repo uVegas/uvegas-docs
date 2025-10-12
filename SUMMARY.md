@@ -9,6 +9,7 @@
 * [General Features](general-features/README.md)
   * [Player Management](general-features/player-management.md)
   * [Table Management](general-features/table-management.md)
+  * [Lobby Management](general-features/lobby-management.md)
   * [Game Managment](general-features/game-managers.md)
   * [Extensibility](general-features/extensibility.md)
 * [Games](games/README.md)
