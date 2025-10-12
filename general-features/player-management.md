@@ -47,4 +47,6 @@ Key features:
 
 ***
 
-> 💡 Tip: Each player prefab can be customized for different games. Blackjack, Poker, Roulette, and Slot players all use the same networked Player system, but local gameplay logic is adapted per game type.
+> 💡 Tip: The Player prefab is universal across all uVegas games.\
+> It provides a shared foundation for player data, networking, and table interaction.\
+> Individual games like Blackjack, Poker, or Roulette implement their own gameplay logic on top of this shared player framework.
