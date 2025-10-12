@@ -14,7 +14,7 @@
 * [Games](games/README.md)
   * [Blackjack](games/blackjack/README.md)
     * [Components](games/blackjack/components.md)
-      * [BlackjackTable](games/blackjack/components/blackjack-table.md)
+      * [BlackjackTable](games/blackjack/components/blackjacktable.md)
     * [Advanced Config](games/blackjack/advanced-config.md)
     * [Events & Scripting](games/blackjack/events-and-scripting.md)
   * [Poker](games/poker/README.md)
