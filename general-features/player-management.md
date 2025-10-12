@@ -32,17 +32,21 @@ Key features:
 
 ***
 
-### Architecture Highlights
+#### Architecture Highlights
 
-graph TD\
-A\[VegasNetworkManager] -->|spawns| B\[Player Prefab]\
-B --> C\[SyncVars: username, balance, tableNetId]\
-B --> D\[LocalVars: hand, dealer cards]\
-B --> E\[Commands & RPCs: join table, leave table, bet, receive cards]
+The **VegasNetworkManager** handles player connections and is responsible for spawning a **Player prefab** for each client joining the server.\
+Each spawned player maintains synchronized and local data to keep gameplay consistent and responsive.
 
-* **Server** maintains authoritative state.
-* **Client** renders local hand, updates UI, and sends actions to the server.
-* **LobbyManager** allows players to discover and join tables dynamically.
+* The **server** maintains the authoritative game state and processes all player actions securely.
+* The **client** renders the player’s local hand, updates the UI, and sends actions such as betting or joining tables to the server.
+
+Each **Player prefab** includes:
+
+* **SyncVars** for core data like username, balance, and table network ID.
+* **Local variables** for data that exist only on the client side, such as the player’s hand or temporary dealer cards.
+* **Commands and TargetRPCs** to manage key gameplay interactions — joining and leaving tables, placing bets, and receiving cards.
+
+The **LobbyManager** serves as the connection layer between players and tables, allowing clients to dynamically discover available tables and join active sessions in real time.
 
 ***
 
