@@ -12,7 +12,7 @@
   * [Lobby Management](general-features/lobby-management.md)
   * [Table Management](general-features/table-management.md)
   * [Game Managment](general-features/game-managers.md)
-  * [Extensibility](general-features/extensibility.md)
+  * [UI Management](general-features/extensibility.md)
 * [Games](games/README.md)
   * [Blackjack](games/blackjack/README.md)
     * [Components](games/blackjack/components.md)
