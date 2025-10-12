@@ -7,12 +7,10 @@ description: >-
 
 # Lobby Management
 
+### Overview
+
 The **LobbyManager** is responsible for connecting players with available tables and presenting the overall casino environment.\
 It acts as a bridge between the **network layer** and the **UI**, ensuring players always see up-to-date information about active tables and online users.
-
-***
-
-#### Overview
 
 When the server starts, the **TableManager** spawns all configured tables.\
 The **LobbyManager** keeps a synchronized list of all players and tables across the network using **Mirror’s SyncLists**.
@@ -31,7 +29,7 @@ Each connected player automatically appears in the lobby, and all available tabl
   On the client side, a visual lobby panel is populated dynamically using `UILobbyTable` entries for each available table prefab.
 * **UI Synchronization**\
   When a client connects, the lobby UI is refreshed — old entries are cleared, and all active tables are instantiated into the panel.
-* 🚪 **Player Join/Leave Handling**
+* **Player Join/Leave Handling**
   * Adds new players as they connect (`AddPlayer`)
   * Removes them on disconnect (`RemovePlayer`)
   * Cleans up state when the server stops
