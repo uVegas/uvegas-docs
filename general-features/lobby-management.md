@@ -7,8 +7,6 @@ description: >-
 
 # Lobby Management
 
-## 🎯 Lobby Management
-
 The **LobbyManager** is responsible for connecting players with available tables and presenting the overall casino environment.\
 It acts as a bridge between the **network layer** and the **UI**, ensuring players always see up-to-date information about active tables and online users.
 
