@@ -34,12 +34,11 @@ Key features:
 
 ### Architecture Highlights
 
-\[VegasNetworkManager] \
-│ spawns ▼ \
-\[Player Prefab] \
-├─ SyncVars: username, balance, tableNetId \
-├─ LocalVars: hand, dealer cards (client-side) \
-└─ Commands & TargetRPCs: join table, leave table, place bet, receive cards
+graph TD\
+A\[VegasNetworkManager] -->|spawns| B\[Player Prefab]\
+B --> C\[SyncVars: username, balance, tableNetId]\
+B --> D\[LocalVars: hand, dealer cards]\
+B --> E\[Commands & RPCs: join table, leave table, bet, receive cards]
 
 * **Server** maintains authoritative state.
 * **Client** renders local hand, updates UI, and sends actions to the server.
