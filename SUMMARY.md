@@ -7,6 +7,7 @@
   * [Basic Configuration](getting-started/basic-configuration.md)
   * [Dedicated Server](getting-started/dedicated-server.md)
 * [General Features](general-features/README.md)
+  * [Core Abstractions](general-features/core-abstractions.md)
   * [Data Management](general-features/data-management.md)
   * [Player Management](general-features/player-management.md)
   * [Lobby Management](general-features/lobby-management.md)
