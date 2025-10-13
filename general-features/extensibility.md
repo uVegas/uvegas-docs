@@ -9,7 +9,7 @@ description: >-
 
 ### Overview
 
-The uVegas UI system is designed to **separate game logic from client-side presentation**. Unlike the server-managed objects (e.g., `BlackjackTable`), the UI never has direct access to the game logic or internal table data. Instead, uVegas uses **TableState** objects, which are synchronized with clients and provide all necessary information for the UI to display the current game state. This ensures that the client cannot accidentally modify server-side logic and maintains server authority over gameplay.
+The uVegas UI system is designed to **separate game logic from client-side presentation**. Unlike the server-managed objects (e.g., `BlackjackTable`), the UI never has direct access to the game logic or internal table data. Instead, uVegas uses **state objects**, which are synchronized with clients and provide all necessary information for the UI to display the current game state. This ensures that the client cannot accidentally modify server-side logic and maintains server authority over gameplay.
 
 ### Core Concepts
 
