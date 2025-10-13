@@ -12,6 +12,7 @@ This framework is **independent of any specific game** (Blackjack, Poker, Roulet
 
 The framework includes the following general features:
 
+* **Core Abstractions:** Defines the foundational interfaces and base classes used across all games, including `ITable`, `IDealer`, `IGameRules`, and `IShuffler`. Provides reusable logic and contracts that ensure consistent behavior, extensibility, and modularity for tables, dealers, rules, and shufflers.
 * **Player Management:** Handles spawning, synchronization, and tracking of all connected players. Provides both server-authoritative state (username, balance, table assignment) and client-local data (current hand, dealer cards) for UI updates.
 * **Table Management:** Responsible for spawning and managing all game tables on the server. Supports multiple table types (Blackjack, Poker, Roulette, Slots) and ensures proper seat allocation for players.
 * **Lobby Management:** Displays available tables, tracks online players, and allows players to join or leave tables dynamically.
