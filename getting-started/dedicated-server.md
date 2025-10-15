@@ -13,7 +13,7 @@ When built as a **headless server**, Mirror automatically starts the server on l
 
 ***
 
-#### 🔧 Configuration
+#### Configuration
 
 Server configuration parameters (such as host and port) can be overridden using the provided config file.
 
@@ -34,7 +34,7 @@ When running multiple server instances on the same machine, provide a different 
 
 ***
 
-#### 🏗️ Building the Server
+#### Building the Server
 
 In Unity:
 
@@ -48,7 +48,7 @@ uVegas is compatible with both **Windows** and **Linux** dedicated builds.
 
 ***
 
-#### ▶️ Running the Server
+#### Running the Server
 
 {% tabs %}
 {% tab title="Linux" %}
@@ -72,6 +72,6 @@ uVegas is compatible with both **Windows** and **Linux** dedicated builds.
 
 ***
 
-#### 📚 Reference
+#### Reference
 
 For advanced hosting and deployment options, refer to the official [Mirror documentation](https://mirror-networking.gitbook.io/).

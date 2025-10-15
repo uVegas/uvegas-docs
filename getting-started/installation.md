@@ -10,7 +10,7 @@ uVegas assets are installed via the **Unity Package Manager** and integrate seam
 
 ***
 
-### 📦 Installation via Unity Package Manager
+### Installation via Unity Package Manager
 
 1. Open Unity **Package Manager** (`Window → Package Manager`).
 2. Select **My Assets** and locate the desired **uVegas package** (e.g. _uVegas Blackjack_, _uVegas Poker_, etc.).
@@ -24,7 +24,7 @@ uVegas is fully modular and integrates cleanly into your existing Unity environm
 
 ***
 
-### ⚙️ Project Configuration
+### Project Configuration
 
 While uVegas does not modify your settings, certain configurations are **recommended** for proper multiplayer operation.
 
@@ -32,15 +32,17 @@ While uVegas does not modify your settings, certain configurations are **recomme
 
 Open **Edit → Project Settings → Player** and verify:
 
-* **Run In Background:** ✅ Enabled\
+* **Run In Background:** Enabled\
   This ensures the client and server continue processing while not in focus, which is essential for Mirror-based multiplayer systems.
 
+{% hint style="info" %}
 You can find more information in the official Mirror Networking documentation:\
 [Mirror Networking Documentation →](https://mirror-networking.gitbook.io/docs/)
+{% endhint %}
 
 ***
 
-### 🧩 Scene Setup
+### Scene Setup
 
 After installation, you need to add the uVegas scenes to your **Build Settings**.
 
@@ -54,13 +56,13 @@ It contains all necessary components for initialization and can be launched dire
 
 ***
 
-### 🖥️ Running in the Editor
+### Running in the Editor
 
 To test multiplayer behavior locally, uVegas supports Unity’s **Multiplayer Play Mode**.
 
 This feature allows you to run **multiple player instances directly within the Unity Editor**, simulating both server and client connections without building separate executables.
 
-#### 🧪 Using Multiplayer Play Mode
+#### Using Multiplayer Play Mode
 
 Install the official Unity package:\
 [Unity Multiplayer Play Mode →](https://docs.unity3d.com/Packages/com.unity.multiplayer.playmode@latest)
@@ -83,7 +85,7 @@ No additional Mirror installation is required.
 
 ***
 
-### ✅ Summary
+### Summary
 
 | Step                                | Description                                               |
 | ----------------------------------- | --------------------------------------------------------- |

@@ -19,7 +19,7 @@ For detailed Unity hardware requirements, please refer to the official documenta
 
 ***
 
-### 🖥️ Client Requirements
+### Client Requirements
 
 The client-side components (Blackjack, Poker, Roulette, Slots, etc.) run on all Unity-supported platforms and are optimized for both desktop and mobile use.
 
@@ -42,7 +42,7 @@ Mobile devices should meet standard Unity requirements for 3D games.
 
 ***
 
-### 🧩 Dedicated Server Requirements
+### Dedicated Server Requirements
 
 The uVegas multiplayer architecture is built on [**Mirror Networking**](https://mirror-networking.com/), running in headless mode for dedicated servers. Servers can be hosted on both **Windows** and **Linux** operating systems.
 
@@ -62,7 +62,7 @@ Headless builds are fully supported via Unity’s command-line tools and Mirror�
 
 ***
 
-### 🔗 Dependencies
+### Dependencies
 
 uVegas uses **Mirror Networking** for all multiplayer functionality.
 
@@ -74,7 +74,7 @@ Developers can check the exact Mirror version in the `Assets/uVegas/Libary/Mirro
 
 ***
 
-### ✅ Summary
+### Summary
 
 | Component      | Platform                            | Notes                                    |
 | -------------- | ----------------------------------- | ---------------------------------------- |
