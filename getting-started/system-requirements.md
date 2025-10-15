@@ -9,8 +9,10 @@ description: >-
 uVegas assets are built and optimized for **Unity 6.0+ (2025 LTS)** and take full advantage of its performance and networking improvements.\
 All games and multiplayer components are designed to run efficiently on both **client** and **dedicated server** environments.
 
+{% hint style="info" %}
 For detailed Unity hardware requirements, please refer to the official documentation:\
 [Unity 6 System Requirements →](https://docs.unity3d.com/Manual/system-requirements.html)
+{% endhint %}
 
 ***
 
