@@ -10,10 +10,10 @@ description: >-
 This asset is currently in development and will be available in 2026.
 {% endhint %}
 
-The framework includes a modular integration layer designed to work seamlessly with [Unity Cloud Services](https://unity.com/products/unity-cloud).&#x20;
+The framework includes a modular integration layer designed to work seamlessly with [Unity Cloud Services](https://unity.com/products/unity-cloud) and [Unity Ads](https://unity.com/de/products/unity-ads).&#x20;
 
 {% hint style="success" %}
-The underlying layer of interfaces and base classes makes it easy to extend or replace these systems with other backends such as [PlayFab](https://playfab.com/) or [Nakama](https://heroiclabs.com/nakama/).
+The underlying layer of interfaces and base classes makes it easy to extend or replace these systems with other backends such as [PlayFab](https://playfab.com/), [Nakama](https://heroiclabs.com/nakama/) or [AdMob](https://admob.google.com/intl/de/home/).
 {% endhint %}
 
 Currently, integrations for the following features are in active development:
