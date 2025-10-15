@@ -31,4 +31,6 @@ All additional information about the components, managers, and how to configure 
 
 ***
 
-> 💡 Tip: Use the default configurations to get started quickly, or create multiple presets for unique gameplay styles.
+{% hint style="info" %}
+Use the default configurations to get started quickly, or create multiple presets for unique gameplay styles.
+{% endhint %}
