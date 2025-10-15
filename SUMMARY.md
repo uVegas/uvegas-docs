@@ -26,7 +26,7 @@
   * [Poker](games/poker/README.md)
   * [Roulette](games/roulette.md)
   * [Slots](games/slots.md)
-* [Integration & Extending](integration-and-extending/README.md)
+* [Integration & Extensibility](integration-and-extending/README.md)
   * [Add New Game](integration-and-extending/add-new-game.md)
   * [Shared Features](integration-and-extending/shared-features.md)
   * [Best Practices](integration-and-extending/best-practices.md)
