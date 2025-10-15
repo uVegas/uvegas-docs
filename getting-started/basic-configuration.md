@@ -8,12 +8,15 @@ description: >-
 
 uVegas is designed to be **highly modular and customizable**. Each game component comes with its **own configuration**, allowing you to adjust behavior without modifying core scripts.
 
+{% hint style="info" %}
+uVegas comes with **default configurations** that reflect authentic casino rules and gameplay settings.\
+For additional or specialized tables, you can **duplicate these default setups** and adjust parameters such as table rules, limits, card decks, and chip styles to create custom gameplay experiences.
+{% endhint %}
+
 Examples include:
 
-* **BlackjackDealer** – Configure dealer behavior, card dealing speed, and rules.
-* **PokerTable** – Adjust table limits, blinds, and player interaction settings.
-* **RouletteTable** – Set wheel type, bet limits, and payout rules.
-* **SlotMachine** – Define symbols, paylines, and jackpot probabilities.
+* **Dealer**– Configure dealer behavior, card dealing speed, and rules.
+* **Table** – Adjust table limits, blinds, and player interaction settings.
 
 In addition to component-level settings, uVegas provides **global game settings** that apply across all assets:
 
@@ -22,9 +25,4 @@ In addition to component-level settings, uVegas provides **global game settings*
 * Card designs and deck variations
 * Chips, tokens, and visual styles
 
-All configuration options can be modified at any time in the Unity Editor. Detailed documentation for each setting is available in the **component-specific docs** for each game (Blackjack, Poker, Roulette, Slots).
-
-{% hint style="info" %}
-uVegas comes with **default configurations** that reflect authentic casino rules and gameplay settings.\
-For additional or specialized tables, you can **duplicate these default setups** and adjust parameters such as table rules, limits, card decks, and chip styles to create custom gameplay experiences.
-{% endhint %}
+All configuration files and default setups are stored in the `uVegas/Data` folder within your Unity project. This makes it easy to locate, backup, or version-control your settings. You can browse and edit these files directly if needed, while the Unity Editor provides a more convenient interface for modifying parameters on the fly.

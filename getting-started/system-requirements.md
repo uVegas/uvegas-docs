@@ -6,7 +6,7 @@ description: >-
 
 # System Requirements
 
-uVegas assets are built and optimized for **Unity 6.0+ (2025 LTS)** and take full advantage of its performance and networking improvements.
+uVegas assets are built and optimized for **Unity 6.0+** and take full advantage of its performance and networking improvements.
 
 Being primarily a technical asset (C# scripts and Unity UI systems), it fully supports all render pipelines, including URP, HDRP, and the Built-in RP.
 
@@ -38,13 +38,13 @@ The client-side components (Blackjack, Poker, Roulette, Slots, etc.) run on all 
 * GPU: DirectX 11 / Metal compatible graphics card
 * Unity Version: 6.0 (LTS) or newer
 
-Mobile devices should meet standard Unity requirements for 3D games.
+Mobile devices should meet standard Unity requirements for 2D or 3D games.
 
 ***
 
 ### Dedicated Server Requirements
 
-The uVegas multiplayer architecture is built on [**Mirror Networking**](https://mirror-networking.com/), running in headless mode for dedicated servers. Servers can be hosted on both **Windows** and **Linux** operating systems.
+Servers can be hosted on both **Windows** and **Linux** operating systems.
 
 **Supported Server Environments**
 
@@ -64,7 +64,7 @@ Headless builds are fully supported via Unityâ€™s command-line tools and Mirrorâ
 
 ### Dependencies
 
-uVegas uses **Mirror Networking** for all multiplayer functionality.
+uVegas uses [**Mirror Networking**](https://mirror-networking.com/) for all multiplayer functionality.
 
 * **Mirror Version:** Bundled directly with the asset to ensure compatibility.
 * The included version is regularly updated to match stable Mirror releases.
