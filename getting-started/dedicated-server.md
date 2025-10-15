@@ -38,11 +38,10 @@ When running multiple server instances on the same machine, provide a different 
 
 In Unity:
 
-1. Open **File → Build Settings**
-2. Enable **Server Build**
-3. Select your target platform (Windows or Linux)
-4. Add the **Main Scene** to the build list
-5. Click **Build**
+1. Open **File → Build Profiles**
+2. Select your target platform (Windows or Linux Server)
+3. Add the **Main Scene** to the scene list
+4. Click **Build**
 
 uVegas is compatible with both **Windows** and **Linux** dedicated builds.
 
