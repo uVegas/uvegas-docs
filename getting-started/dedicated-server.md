@@ -17,8 +17,10 @@ When built as a **headless server**, Mirror automatically starts the server on l
 
 Server configuration parameters (such as host and port) can be overridden using the provided config file.
 
-**Important:** The `server.cfg` is **intended for dedicated server builds** and is **optional**.\
+{% hint style="warning" %}
+The `server.cfg` is **intended for dedicated server builds** and is **optional**.\
 If the file is not present, uVegas will use the default host, port, and other network settings defined in the `VegasNetworkManager`.
+{% endhint %}
 
 After building your server, place the configuration file in the `config` folder inside the build directory to override the default values.
 

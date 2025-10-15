@@ -76,7 +76,7 @@ This allows you to test synchronization, gameplay logic, and table joining workf
 
 ***
 
-### 🔗 Dependencies
+### Dependencies
 
 uVegas includes the **Mirror Networking** framework, already preconfigured for stable operation.\
 The bundled version is updated regularly and pinned to a specific commit for reliability.
