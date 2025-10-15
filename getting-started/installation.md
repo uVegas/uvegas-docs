@@ -15,10 +15,12 @@ uVegas assets are installed via the **Unity Package Manager** and integrate seam
 1. Open Unity **Package Manager** (`Window → Package Manager`).
 2. Select **My Assets** and locate the desired **uVegas package** (e.g. _uVegas Blackjack_, _uVegas Poker_, etc.).
 3. Click **Download** and then **Import**.
-4. Unity will add all uVegas components under: Assets/uVegas/
+4. Unity will add all uVegas components under: `Assets/uVegas/`
 
-✅ **No project settings are overwritten.**\
+{% hint style="success" %}
+**No project settings are overwritten.**\
 uVegas is fully modular and integrates cleanly into your existing Unity environment.
+{% endhint %}
 
 ***
 
