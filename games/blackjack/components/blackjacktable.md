@@ -20,11 +20,11 @@ The table also ensures that a **BlackjackDealer** component is present, responsi
 
 ### Core Responsibilities
 
-* 🃏 **Server Authority** — The table manages player seating, bets, and shoe handling exclusively on the server.
-* ♠️ **State Synchronization** — All visual and informational updates are propagated via the networked `TableState` object to ensure clients remain in sync without accessing game logic directly.
-* 💺 **Seat Management** — Dynamically adds or removes players from available seats, updating both server and client state objects.
-* 💰 **Bet Handling** — Processes bets through the shared `BetOnTable` logic, enforcing table limits and player balances.
-* 🧩 **Game Integration** — The `BlackjackTable` is lightweight and delegates gameplay flow to the `BlackjackDealer`, maintaining a clean separation between **table infrastructure** and **game mechanics**.
+* **Server Authority** - The table manages player seating, bets, and shoe handling exclusively on the server.
+* **State Synchronization** - All visual and informational updates are propagated via the networked `TableState` object to ensure clients remain in sync without accessing game logic directly.
+* **Seat Management** - Dynamically adds or removes players from available seats, updating both server and client state objects.
+* **Bet Handling** - Processes bets through the shared `BetOnTable` logic, enforcing table limits and player balances.
+* **Game Integration** - The `BlackjackTable` is lightweight and delegates gameplay flow to the `BlackjackDealer`, maintaining a clean separation between **table infrastructure** and **game mechanics**.
 
 ***
 
@@ -65,11 +65,11 @@ The underlying **BaseTable** provides all core logic shared across different gam
 
 ### Server Lifecycle
 
-1. **Initialization** — When a table is spawned, the server sets up seat data, assigns min/max bets, and initializes the shoe.
-2. **Join Phase** — Players connect to the table through network commands; seats are assigned automatically.
-3. **Betting Phase** — Players place bets using validated `CmdBetOnTable` calls.
-4. **Gameplay Phase** — The dealer runs the game (hits, stands, busts) via the `BlackjackDealer`.
-5. **Cleanup Phase** — Cards are discarded and the table resets for the next round.
+1. **Initialization** - When a table is spawned, the server sets up seat data, assigns min/max bets, and initializes the shoe.
+2. **Join Phase** - Players connect to the table through network commands; seats are assigned automatically.
+3. **Betting Phase** - Players place bets using validated `CmdBetOnTable` calls.
+4. **Gameplay Phase** - The dealer runs the game (hits, stands, busts) via the `BlackjackDealer`.
+5. **Cleanup Phase** - Cards are discarded and the table resets for the next round.
 
 ***
 

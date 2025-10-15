@@ -16,10 +16,10 @@ These rule assets can be assigned to different table prefabs to create custom ga
 
 ### Key Features
 
-* 🎯 **Modular Configuration** — Each table can have its own rule asset.
-* 🃏 **Authentic Gameplay** — Supports traditional Blackjack conventions such as splits, double downs, insurance, and surrender.
-* ⚙️ **Dynamic Adjustments** — Modify rules in the Inspector without changing code.
-* 💰 **Payout Customization** — Configure winnings and insurance multipliers for various styles of play.
+* **Modular Configuration** - Each table can have its own rule asset.
+* **Authentic Gameplay** - Supports traditional Blackjack conventions such as splits, double downs, insurance, and surrender.
+* **Dynamic Adjustments** - Modify rules in the Inspector without changing code.
+* **Payout Customization** - Configure winnings and insurance multipliers for various styles of play.
 
 ***
 
@@ -66,7 +66,7 @@ These rule assets can be assigned to different table prefabs to create custom ga
 1. Create a new **Blackjack Rules** asset via\
    **Assets → Create → uVegas → Blackjack → Rules**.
 2. Adjust the parameters as needed in the Inspector.
-3. Assign the rules asset to a **Blackjack Table** prefab via the _BaseTable_ or _Game Controller_ component.
+3. Assign the rules asset to a **Blackjack Table** prefab via the _BaseTable_ component.
 4. At runtime, the server enforces the rules for all players at that table.
 
 ***

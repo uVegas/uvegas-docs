@@ -17,10 +17,10 @@ This component ensures consistent and rule-driven hand evaluation across all cli
 
 ### Core Responsibilities
 
-* ♣️ **Hand Evaluation** — Calculates total, soft/hard value, and bust status for a given hand.
-* 🂡 **Blackjack Detection** — Identifies a natural Blackjack based on card count and total.
-* ⚖️ **Hand Comparison** — Compares player and dealer hands and returns the appropriate game outcome.
-* ⚙️ **Rule Integration** — Uses parameters from `BlackjackRules` to ensure flexibility across different table configurations.
+* **Hand Evaluation** - Calculates total, soft/hard value, and bust status for a given hand.
+* **Blackjack Detection** - Identifies a natural Blackjack based on card count and total.
+* **Hand Comparison** - Compares player and dealer hands and returns the appropriate game outcome.
+* **Rule Integration** — Uses parameters from `BlackjackRules` to ensure flexibility across different table configurations.
 
 ***
 
