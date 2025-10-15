@@ -10,6 +10,10 @@ description: >-
 Poker, Roulette, and Slots, as well as various add-ons for authentication and payment, are currently in development and will be available as separate packages on the Asset Store. For release updates, you can subscribe to our newsletter [on our website](https://uvegas.online/).
 {% endhint %}
 
+{% hint style="info" %}
+This documentation is currently under development and not yet complete. For specific questions or inquiries, please feel free to use our [contact form](https://uvegsa.online/contact). We will get back to you as soon as possible.
+{% endhint %}
+
 [uVegas](https://assetstore.unity.com/publishers/34266?preview=1) is a collection of premium Unity assets designed to deliver authentic online casino experiences. Each game - Blackjack, Poker, Roulette, and Slot Machines - is available as a **modular asset**, allowing developers to integrate them into their projects **independently** or in combination.
 
 The modular system ensures that once a game is added to your project, it automatically connects to uVegas' **dedicated multiplayer server architecture**. Players can join tables for any game without additional configuration in Unity, making setup effortless and seamless.
