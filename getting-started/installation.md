@@ -30,7 +30,7 @@ While uVegas does not modify your settings, certain configurations are **recomme
 
 #### Required Unity Settings
 
-Open **Edit → Project Settings → Player** and verify:
+Open **Edit → Project Settings → Player** (Resolution and Presentation tab) and verify:
 
 * **Run In Background:** Enabled\
   This ensures the client and server continue processing while not in focus, which is essential for Mirror-based multiplayer systems.
