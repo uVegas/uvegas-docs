@@ -6,7 +6,9 @@ description: >-
 
 # Poker
 
-> This asset is currently in development and will be available in 2026.
+{% hint style="danger" %}
+This asset is currently in development and will be available in 2026.
+{% endhint %}
 
 The uVegas **Poker** module will feature a complete **Texas Hold’em** implementation, including:
 

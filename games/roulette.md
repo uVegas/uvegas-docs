@@ -6,7 +6,9 @@ description: >-
 
 # Roulette
 
-> This asset is currently in development and will be available in 2026.
+{% hint style="danger" %}
+This asset is currently in development and will be available in 2026.
+{% endhint %}
 
 The uVegas **Roulette** module will include:
 
