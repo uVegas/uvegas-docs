@@ -64,7 +64,7 @@ IDealer
          ├── BlackjackDealer
          └── PokerDealer
          
-IShufflerr
+IShuffler
    └── BaseShuffler
          └── FisherYatesShuffle      
 ```
