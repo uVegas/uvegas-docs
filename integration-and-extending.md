@@ -6,6 +6,10 @@ description: >-
 
 # Integration & Extensibility
 
+{% hint style="danger" %}
+This asset is currently in development and will be available in 2026.
+{% endhint %}
+
 The framework includes a modular integration layer designed to work seamlessly with [Unity Cloud Services](https://unity.com/products/unity-cloud).\
 Currently, integrations for the following features are in active development:
 
