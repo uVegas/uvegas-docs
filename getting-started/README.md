@@ -10,7 +10,7 @@ description: >-
 &#x20;If you’re new to Unity networking or Mirror, check out the official [Mirror Documentation](https://mirror-networking.gitbook.io/docs/) to better understand the underlying multiplayer architecture.
 {% endhint %}
 
-Welcome to the uVegas Getting Started Guide.
+### Welcome to the uVegas Gettings Started Guide
 
 This section walks you through the essential setup steps to integrate and run uVegas in your Unity project - from understanding system requirements to launching your first multiplayer session.
 
