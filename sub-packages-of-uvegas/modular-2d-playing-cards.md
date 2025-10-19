@@ -7,7 +7,7 @@ description: >-
 # Modular 2D Playing Cards
 
 {% hint style="info" %}
-The **Modular 2D Playing Cards** module is also available as a standalone asset on the Unity Asset Store for **free**. [Get it here](https://u3d.as/3G7E).
+The **Modular 2D Playing Cards** module is available as a standalone asset on the Unity Asset Store for **free**. [Get it here](https://u3d.as/3G7E).
 {% endhint %}
 
 \
