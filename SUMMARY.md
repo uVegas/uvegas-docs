@@ -29,6 +29,7 @@
 * [Integration & Extensibility](integration-and-extending.md)
 * [Sub-Packages of uVegas](sub-packages-of-uvegas/README.md)
   * [Modular 2D Playing Cards](sub-packages-of-uvegas/modular-2d-playing-cards.md)
+  * [Casino Chips & Card Sounds](sub-packages-of-uvegas/casino-chips-and-card-sounds.md)
 * [API Reference](api-reference.md)
 * [Troubleshooting & FAQ](troubleshooting-and-faq.md)
 * [Changelog](changelog.md)
