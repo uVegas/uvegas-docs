@@ -1,7 +1,7 @@
 ---
 description: >-
   The Modular 2D Playing Cards module provides a complete, flexible system for
-  creating, managing, and displaying standard playing cards in Unity.
+  creating, managing, and displaying themeable standard playing cards in Unity.
 ---
 
 # Modular 2D Playing Cards
