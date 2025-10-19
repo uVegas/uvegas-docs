@@ -7,7 +7,7 @@ description: >-
 # Casino Chips & Card Sounds
 
 {% hint style="info" %}
-~~The **Casino Sound Pack** is available as a standalone module for free on the Unity Asset Store.~~\
+~~The **Casino Sound Pack** is available as a standalone module on the Unity Asset Store.~~\
 [~~Get it here~~](https://u3d.as/3FYc) ~~→~~
 {% endhint %}
 
