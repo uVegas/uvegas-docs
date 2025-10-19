@@ -11,7 +11,7 @@ The **Modular 2D Playing Cards** module is also available as a standalone asset 
 {% endhint %}
 
 \
-The **Modular 2D Playing Cards** module is the **underlying system for all playing cards in uVegas**. It offers a complete, flexible framework for card data, visuals, and UI, and each component can be used independently or combined seamlessly within the uVegas ecosystem.
+The **Modular 2D Playing Cards** module is the **underlying system for all playing cards in uVegas**. It offers a complete, flexible framework for card data, visuals, and UI.
 
 ### Key Components
 
@@ -53,6 +53,10 @@ The **Modular 2D Playing Cards** module is the **underlying system for all playi
 
 ***
 
+{% hint style="success" %}
+The module includes a **PSD file** containing all visuals for the provided themes (**Classic**, **Modern**, and **Neo**), organized in clearly labeled groups. This PSD serves as a reference and starting point for creating new themes, allowing developers to easily design custom card visuals consistent with the existing style.
+{% endhint %}
+
 ### Features
 
 * Modular architecture: data, visuals, and UI are decoupled and reusable.
@@ -60,10 +64,6 @@ The **Modular 2D Playing Cards** module is the **underlying system for all playi
 * Supports standard playing card mechanics plus jokers and hidden cards.
 * UI-friendly design with hover effects, scaling, and audio.
 * Easily integrates with other uVegas systems or standalone projects.
-
-{% hint style="success" %}
-The module includes a **PSD file** containing all visuals for the provided themes (**Classic**, **Modern**, and **Neo**), organized in clearly labeled groups. This PSD serves as a reference and starting point for creating new themes, allowing developers to easily design custom card visuals consistent with the existing style.
-{% endhint %}
 
 ***
 
