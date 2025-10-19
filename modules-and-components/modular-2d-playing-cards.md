@@ -6,6 +6,11 @@ description: >-
 
 # Modular 2D Playing Cards
 
+{% hint style="info" %}
+The **Modular 2D Playing Cards** module is also available as a standalone asset on the Unity Asset Store for **free**. [Get it here](https://u3d.as/3G7E).
+{% endhint %}
+
+\
 The **Modular 2D Playing Cards** module provides a complete, flexible system for representing and displaying standard playing cards in Unity. It includes core card data structures, visual theming, and UI integration. The module is fully modular: each component can be used individually or together as part of the uVegas ecosystem.
 
 ### Key Components
