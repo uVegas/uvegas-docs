@@ -61,6 +61,10 @@ The **Modular 2D Playing Cards** module is the **underlying system for all playi
 * UI-friendly design with hover effects, scaling, and audio.
 * Easily integrates with other uVegas systems or standalone projects.
 
+{% hint style="success" %}
+The module includes a **PSD file** containing all visuals for the provided themes (**Classic**, **Modern**, and **Neo**), organized in clearly labeled groups. This PSD serves as a reference and starting point for creating new themes, allowing developers to easily design custom card visuals consistent with the existing style.
+{% endhint %}
+
 ***
 
 ### Integration Notes
@@ -70,9 +74,3 @@ The **Modular 2D Playing Cards** module is the **underlying system for all playi
 * Prefabs use `UICard` to display cards according to the currently selected theme.
 * Card themes can be swapped **at runtime** to immediately see visual changes without modifying core data.
 * Hover effects and audio in the demo are optional and can be enabled or disabled as needed.
-
-***
-
-### Availability
-
-This module is part of the **uVegas** asset but is also available independently as a separate asset on the Unity Asset Store.
