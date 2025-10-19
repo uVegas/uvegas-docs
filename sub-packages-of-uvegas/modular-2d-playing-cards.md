@@ -11,7 +11,7 @@ The **Modular 2D Playing Cards** module is also available as a standalone asset 
 {% endhint %}
 
 \
-The **Modular 2D Playing Cards** module provides a complete, flexible system for representing and displaying standard playing cards in Unity. It includes core card data structures, visual theming, and UI integration. The module is fully modular: each component can be used individually or together as part of the uVegas ecosystem.
+The **Modular 2D Playing Cards** module is the **underlying system for all playing cards in uVegas**. It offers a complete, flexible framework for card data, visuals, and UI, and each component can be used independently or combined seamlessly within the uVegas ecosystem.
 
 ### Key Components
 
@@ -23,10 +23,6 @@ The **Modular 2D Playing Cards** module provides a complete, flexible system for
   Enum for card suits: `Hearts`, `Diamonds`, `Clubs`, `Spades`, `Hidden`, and `Joker`.
 * **Rank**\
   Enum for card ranks: `Two` through `Ace`, plus `None` (placeholder) and `Joker`.
-* **RankEntry**\
-  Serializable struct mapping a `Rank` to its visual `Sprite`.
-* **SuitEntry**\
-  Serializable struct mapping a `Suit` to its visual `Sprite` and `Color`.
 * **CardTheme**\
   ScriptableObject that defines the visual theme of cards, including base images, rank and suit sprites, and colors. Provides methods `GetRank(Rank)` and `GetSuit(Suit)` for runtime retrieval of visuals.
 
@@ -69,10 +65,11 @@ The **Modular 2D Playing Cards** module provides a complete, flexible system for
 
 ### Integration Notes
 
-* Prefabs use `UICard` to display each card visually.
-* `CardThemeManager` can be used to quickly prototype card-based scenes.
-* Themes can be swapped at runtime without modifying core data.
-* Hover effects and audio are optional and can be removed if desired.
+* The demo scene provides a **quick and easy way to test new card themes** and visualize changes in real time.
+* `CardThemeManager` handles deck generation, hand drawing, and UI updates for rapid prototyping.
+* Prefabs use `UICard` to display cards according to the currently selected theme.
+* Card themes can be swapped **at runtime** to immediately see visual changes without modifying core data.
+* Hover effects and audio in the demo are optional and can be enabled or disabled as needed.
 
 ***
 
