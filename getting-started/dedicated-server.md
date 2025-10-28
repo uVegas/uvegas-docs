@@ -30,6 +30,8 @@ Example:
 # config/server.cfg
 host=0.0.0.0
 port=7777
+savefile=users.json
+saveinterval=360
 ```
 
 When running multiple server instances on the same machine, provide a different port for each configuration file to avoid conflicts.
