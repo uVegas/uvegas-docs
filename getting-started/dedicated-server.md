@@ -40,7 +40,7 @@ When running multiple server instances on the same machine, provide a different 
 
 ### Database
 
-The uVegas dedicated server uses an **in-memory database** to manage player data and chip balances during runtime. This approach ensures fast access and efficient synchronization for all connected clients. To persist data, the server periodically exports the current state to a JSON file defined by the `savefile` parameter in the configuration. The export interval, in seconds, is controlled by the `saveinterval` parameter. On startup, the server automatically loads existing data from the specified file if available.
+The uVegas dedicated server uses an **in-memory database** to manage player data and chip balances during runtime. This approach ensures fast access and efficient synchronization for all connected clients. To persist data, the server periodically exports the current state to a JSON file defined by the `savefile` _(default: users.json)_ parameter in the configuration. The export interval, in seconds, is controlled by the `saveinterval` _(default: 360)_ parameter. On startup, the server automatically loads existing data from the specified file if available.
 
 ***
 
