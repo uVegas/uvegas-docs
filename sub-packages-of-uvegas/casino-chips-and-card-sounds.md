@@ -15,6 +15,8 @@ description: >-
 
 The **Casino Sound Pack** provides a complete set of authentic audio clips for card and chip interactions, captured from real casino equipment. This pack includes realistic sounds of 10 g ceramic chips and Bicycle playing cards, recorded on a felt poker table to create a natural and immersive acoustic environment. All clips are ready to use in Unity, enhancing the realism of card games, casino simulations, and tabletop experiences.
 
+[https://www.youtube.com/watch?v=HYLQ3y5w8wU&](https://www.youtube.com/watch?v=HYLQ3y5w8wU&)
+
 ***
 
 ### Key Components
