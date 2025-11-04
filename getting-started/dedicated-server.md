@@ -30,8 +30,9 @@ Example:
 # config/server.cfg
 host=0.0.0.0
 port=7777
-savefile=users.json
+savefile=users.db
 saveinterval=360
+tickrate=10
 ```
 
 When running multiple server instances on the same machine, provide a different port for each configuration file to avoid conflicts.
@@ -40,7 +41,7 @@ When running multiple server instances on the same machine, provide a different 
 
 ### Database
 
-The uVegas dedicated server uses an **in-memory database** to manage player data and chip balances during runtime. This approach ensures fast access and efficient synchronization for all connected clients. To persist data, the server periodically exports the current state to a JSON file defined by the `savefile` _(default: users.json)_ parameter in the configuration. The export interval, in seconds, is controlled by the `saveinterval` _(default: 360)_ parameter. On startup, the server automatically loads existing data from the specified file if available.
+The uVegas dedicated server uses **LiteDB** to manage player information and chip balances during runtime, ensuring fast access and efficient synchronization for all connected clients. Alternatively, custom database implementations can be created by implementing the `IUserDatabase` interface and replacing the instance in the `NetworkManager` where the database is initialized. For persistence, the server stores the current state in a LiteDB database file (`user.db` by default). The autosave interval, in seconds, is controlled by the `saveinterval` parameter (default: 360). On startup, the server automatically loads existing data from the specified database file if it exists.
 
 ***
 
