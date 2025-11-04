@@ -41,7 +41,7 @@ When running multiple server instances on the same machine, provide a different 
 
 ### Database
 
-The uVegas dedicated server uses **LiteDB** to manage player information and chip balances during runtime, ensuring fast access and efficient synchronization for all connected clients. Alternatively, custom database implementations can be created by implementing the `IUserDatabase` interface and replacing the instance in the `NetworkManager` where the database is initialized. For persistence, the server stores the current state in a LiteDB database file (`user.db` by default). The autosave interval, in seconds, is controlled by the `saveinterval` parameter (default: 360). On startup, the server automatically loads existing data from the specified database file if it exists.
+The uVegas dedicated server uses [LiteDB](https://www.litedb.org/) to manage player information and chip balances during runtime, ensuring fast access and efficient synchronization for all connected clients. Alternatively, custom database implementations can be created by implementing the `IUserDatabase` interface and replacing the instance in the `NetworkManager` where the database is initialized. For persistence, the server stores the current state in a LiteDB database file (`user.db` by default). The autosave interval, in seconds, is controlled by the `saveinterval` parameter (default: 360). On startup, the server automatically loads existing data from the specified database file if it exists.
 
 ***
 
