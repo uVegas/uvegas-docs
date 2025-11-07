@@ -70,7 +70,7 @@ uVegas uses [**Mirror Networking**](https://mirror-networking.com/) for all mult
 * The included version is regularly updated to match stable Mirror releases.
 * No external installation of Mirror is required - the package includes all dependencies.
 
-Developers can check the exact Mirror version in the `Assets/uVegas/Libary/Mirror` folder.
+Developers can check the exact Mirror version in the `Assets/Mirror` folder.
 
 ***
 
