@@ -9,9 +9,9 @@ description: >-
 {% hint style="info" %}
 The **Casino Chips & Card Sounds Pack** is available as a standalone module on the following Asset Stores.
 
-~~Unity Asset Store~~\
-[Fab.com ](https://fab.com/s/4b8df0c30edf)\
-[itch.io](https://uvegas.itch.io/sound-pack)
+~~Unity Asset Store (Unity)~~\
+[Fab.com](https://fab.com/s/4b8df0c30edf) (Unity and Unreal)\
+[itch.io](https://uvegas.itch.io/sound-pack) (Unity)
 {% endhint %}
 
 The **Casino Chips & Card Sounds Pack** provides a complete set of authentic audio clips for card and chip interactions, captured from real casino equipment. This pack includes realistic sounds of 10 g ceramic chips and Bicycle playing cards, recorded on a felt poker table to create a natural and immersive acoustic environment. All clips are ready to use in Unity, enhancing the realism of card games, casino simulations, and tabletop experiences.
