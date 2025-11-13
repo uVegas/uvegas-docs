@@ -27,13 +27,10 @@ The **Casino Chips & Card Sounds Pack** provides a complete set of authentic aud
 * **Bicycle Playing Cards (Air-Cushion Finish, Poker Size)**\
   High-quality poker deck used in US casinos. Includes authentic shuffle, deal, flick, and slide sounds.
 * **Audio Clips**\
-  41 individual recordings capturing all typical interactions at a casino table:
-  * Chip stacking
-  * Chip sliding
-  * Card shuffling
-  * Card dealing
-  * Card flicks
-  * Card slides
+  54 individual recordings capturing all typical interactions at a casino table:
+  * Chip stacking and dropping
+  * Card shuffling and dealing
+  * Coins
 * **Recording Environment**\
   All sounds were recorded on a felt casino table using a dual-microphone setup (close & ambient) to capture natural depth and clarity, with minimal reverb for a clean and usable audio experience.
 * **Demo Scene**\
@@ -56,7 +53,7 @@ The **Casino Chips & Card Sounds Pack** provides a complete set of authentic aud
 | Property              | Specification                                         |
 | --------------------- | ----------------------------------------------------- |
 | File Format           | WAV, 44.1 kHz, 16-bit                                 |
-| Number of Clips       | 41                                                    |
+| Number of Clips       | 54                                                    |
 | Chips                 | Ceramic, 10 g per chip                                |
 | Cards                 | Bicycle Playing Cards, Air-Cushion Finish, Poker Size |
 | Recording Environment | Real felt poker table, dry / low reverb               |
@@ -67,7 +64,7 @@ The **Casino Chips & Card Sounds Pack** provides a complete set of authentic aud
 
 ### Usage Notes
 
-* The demo scene is designed to **quickly test and preview all sounds** interactively.
+* The demo scene (only in Unity Package) is designed to **quickly test and preview all sounds** interactively.
 * Sounds can be triggered via scripts, UI buttons, or Unity events.
 * All clips are fully reusable and can be incorporated into any card- or chip-based game within Unity.
 * No additional plugins are required; all audio is ready-to-use.
