@@ -9,7 +9,7 @@ description: >-
 {% hint style="info" %}
 The **Casino Chips & Card Sounds Pack** is available as a standalone module on the following Asset Stores.
 
-~~Unity Asset Store (Unity Package)~~\
+[Unity Asset Store](https://u3d.as/3FYc) (Unity Package, **best Price**)\
 [Fab.com](https://fab.com/s/4b8df0c30edf) (Unity Package and Unreal Plugin)\
 [itch.io](https://uvegas.itch.io/sound-pack) (WAV only)
 {% endhint %}
