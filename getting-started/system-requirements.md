@@ -66,11 +66,9 @@ Headless builds are fully supported via Unityâ€™s command-line tools and Mirrorâ
 
 uVegas uses [**Mirror Networking**](https://mirror-networking.com/) for all multiplayer functionality.
 
-* **Mirror Version:** Bundled directly with the asset to ensure compatibility.
-* The included version is regularly updated to match stable Mirror releases.
-* No external installation of Mirror is required - the package includes all dependencies.
+Mirror must be installed as a dependency from the Unity Asset Store before using this package.
 
-Developers can check the exact Mirror version in the `Assets/Mirror` folder.
+The project is tested against stable Mirror releases. For compatibility reasons, it is recommended to use the version of Mirror specified in the package documentation.
 
 ***
 

@@ -78,10 +78,11 @@ This allows you to test synchronization, gameplay logic, and table joining workf
 
 ### Dependencies
 
-uVegas includes the **Mirror Networking** framework, already preconfigured for stable operation.\
-The bundled version is updated regularly and pinned to a specific commit for reliability.
+uVegas requires the [Mirror Networking framework](https://assetstore.unity.com/packages/tools/network/mirror-129321) to be installed separately from the Unity Asset Store.
 
-No additional Mirror installation is required.
+Mirror is not bundled as a standalone redistributed library within this package. Instead, the project is configured to work with stable Mirror releases.
+
+Please install Mirror (Package Manager) before using uVegas and ensure compatibility with the recommended Mirror version specified in the documentation.
 
 ***
 
