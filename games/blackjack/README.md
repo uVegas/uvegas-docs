@@ -13,9 +13,9 @@ All standard Blackjack rules have been implemented carefully to reflect real cas
 
 * **Push / Stand / Hit**
 * **Double Down**
-* **Split**
+* **Split** - in development (2026)
 * **Insurance**
-* **Surrender**
+* **Surrender** - in development (2026)
 * **Dealer rules** (e.g., hits on soft 17)
 * **Deck management** (single, multiple decks, and Shoes)
 * **Betting limits and table rules**
