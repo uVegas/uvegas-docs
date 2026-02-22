@@ -21,17 +21,6 @@ It is designed to be **generic**, so it can manage different types of table pref
   * `maxTables` – the maximum number of tables of this type
   * `maxSeats` – number of seats per table
 * When the server starts (`OnStartServer`), it **spawns all configured tables** automatically.
-
-```csharp
-foreach (var data in tableData)
-{
-    for (int i = 0; i < data.maxTables; i++)
-    {
-        SpawnTable(data, i);
-    }
-}
-```
-
 * Each table is instantiated, initialized with its seat count, and spawned on the network using **Mirror's `NetworkServer.Spawn`**.
 * After spawning, the table is **registered with the `LobbyManager`**, which allows players to see and join it.
 
