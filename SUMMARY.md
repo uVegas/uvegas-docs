@@ -14,6 +14,7 @@
   * [Table Management](general-features/table-management.md)
   * [Game Managment](general-features/game-managers.md)
   * [UI Management](general-features/extensibility.md)
+  * [Event Management](general-features/event-management.md)
 * [Games](games/README.md)
   * [Blackjack](games/blackjack/README.md)
     * [Components](games/blackjack/components.md)
