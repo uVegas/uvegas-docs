@@ -30,6 +30,7 @@ This version is currently in development and will be released in **March 2026**.
 * Double Down, Insurance, and Surrender rules are now visible in both Lobby and Table view.
 * Insurance system expanded: offer, win, and loss events including logic and voice SFX.
 * Missing game events (Surrender, Double Down) are now properly dispatched (event emission only, no additional gameplay logic).
+* **2026 PlayTest:** uVegas: Blackjack is now available again via itch.io as a playable demo for testing.
 * ... TBA
 
 ### \[Version 1.0.0] - Released
