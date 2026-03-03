@@ -9,7 +9,7 @@ description: >-
 ### \[Version 1.1.0]
 
 {% hint style="info" %}
-This version is current in development and will be released in **March 2026**. Here are some of the highlights.
+This version is currently in development and will be released in **March 2026**. Here are some of the highlights.
 {% endhint %}
 
 * Starting Chips moved to `server.cfg` (default: 25,000).
