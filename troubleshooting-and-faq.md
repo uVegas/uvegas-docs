@@ -29,3 +29,7 @@ Yes, we are always open to feedback and suggestions. If an idea improves the pro
 ### What if I have a very simple or “silly” question?
 
 There are no silly questions - only helpful answers. Feel free to reach out via our website or Discord channel, and we will respond professionally to any inquiry you may have.
+
+### Who develops the uVegas products?
+
+uVegas is developed in Germany by a solo developer with more than 20 years of experience in software development. You can find our [legal imprint](https://uvegas.online/imprint) (Impressum) on our website. In contrast to some non-European countries such as the USA, UK, Japan, Canada, or Australia, European regulations require us to disclose the party responsible for the product.
