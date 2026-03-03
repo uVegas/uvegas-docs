@@ -33,3 +33,8 @@ There are no silly questions - only helpful answers. Feel free to reach out via 
 ### Who develops the uVegas products?
 
 uVegas is developed in Germany by a solo developer with more than 20 years of experience in software development. You can find our [legal imprint](https://uvegas.online/imprint) (Impressum) on our website. In contrast to some non-European countries such as the USA, UK, Japan, Canada, or Australia, European regulations require us to disclose the party responsible for the product.
+
+### Do you use AI to create your content?
+
+We use tools such as GitHub Copilot, OpenAI ChatGPT, and Google Gemini to generate boilerplate script structures, explore optimization ideas, or receive general suggestions that are later implemented manually. In our view, AI is a helpful assistant that reduces small mistakes and speeds up routine work. This FAQ was also translated into English using AI support.
+
