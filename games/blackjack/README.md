@@ -15,9 +15,9 @@ All standard Blackjack rules have been implemented carefully to reflect real cas
 
 * **Push / Stand / Hit**
 * **Double Down**
-* **Split** - in development (2026)
+* ~~**Split**~~ - in development (2026)
 * **Insurance**
-* **Surrender** - in development (2026)
+* **Surrender**
 * **Dealer rules** (e.g., hits on soft 17)
 * **Deck management** (single, multiple decks, and Shoes)
 * **Betting limits and table rules**
@@ -30,9 +30,3 @@ All additional information about the components, managers, and how to configure 
 * **BlackjackTable** – Player actions, bets, and hand management
 * **TableRules / BlackjackGameRules** – Table-specific rules, limits, and deck configurations
 * **UI Components** – Player interface, bet placement, and hand visualization
-
-***
-
-{% hint style="info" %}
-Use the default configurations to get started quickly, or create multiple presets for unique gameplay styles.
-{% endhint %}
