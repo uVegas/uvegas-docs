@@ -20,6 +20,16 @@ Yes and no. Adding or modifying special features requires basic knowledge of [Un
 
 <details>
 
+<summary>Is there a playable demo available?</summary>
+
+Yes. You can find a playable version of our asset on itch.io to evaluate the functionality before making a purchase:
+
+* [**uVegas: Blackjack Multiplayer**](https://uvegas.itch.io/blackjack-playtest)
+
+</details>
+
+<details>
+
 <summary>Can someone answer my questions before I purchase?</summary>
 
 Absolutely. The [Unity Asset Store](https://assetstore.unity.com/) offers a wide variety of assets, and it is natural to have many questions before making a purchase. You are welcome to contact us through our website [contact form](https://uvegas.dev/contact) or [Discord server](https://discord.uvegas.dev/), where we will gladly help clarify any product-related questions. We recommend not purchasing without first gathering the information you need.
