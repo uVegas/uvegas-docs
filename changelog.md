@@ -35,5 +35,5 @@ This version is currently in development and will be released in **March 2026**.
 
 ### \[Version 1.0.0] - Released
 
-* Initial release on itch.io and Unity Asset Store.
+* Initial release on [itch.io](https://uvegas.itch.io/blackjack-multiplayer) and ~~Unity Asset Store~~.
 
