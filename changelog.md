@@ -37,7 +37,7 @@ description: >-
 
 <details>
 
-<summary>[Version 1.0.0] - Released</summary>
+<summary>[Version 1.0.0] - Released (February 2026)</summary>
 
 Initial release on [itch.io](https://uvegas.itch.io/blackjack-multiplayer) and ~~Unity Asset Store~~.
 
