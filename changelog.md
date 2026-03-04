@@ -6,6 +6,8 @@ description: >-
 
 # Changelog
 
+### uVegas: Blackjack - **Authoritative Multiplayer**
+
 <details>
 
 <summary>[Version 1.2.0] - Planned (April 2026)</summary>
