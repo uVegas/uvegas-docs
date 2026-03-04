@@ -8,6 +8,8 @@ description: >-
 
 ### Overview
 
+{% embed url="https://www.youtube.com/watch?v=7lg9jdU5xso" %}
+
 uVegas Blackjack delivers a fully **server-authoritative multiplayer experience** for Unity.\
 All standard Blackjack rules have been implemented carefully to reflect real casino play, including:
 
