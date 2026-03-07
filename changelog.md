@@ -30,6 +30,7 @@ description: >-
 * Double Down, Insurance, and Surrender rules are now visible in both Lobby and Table view.
 * Insurance system expanded: offer, win, and loss events including logic and voice SFX.
 * Missing game events (Surrender, Double Down) are now properly dispatched (event emission only, no additional gameplay logic).
+* Updated Unity version compatibility to Unity 6.3
 * **2026 PlayTest:** uVegas: Blackjack is now available again via [itch.io](https://uvegas.itch.io/blackjack-playtest) as a playable demo for testing.
 * ... TBA
 
