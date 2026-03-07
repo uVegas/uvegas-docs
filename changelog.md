@@ -32,7 +32,6 @@ description: >-
 * Missing game events (Surrender, Double Down) are now properly dispatched (event emission only, no additional gameplay logic).
 * Updated Unity version compatibility to Unity 6.3
 * **2026 PlayTest:** uVegas: Blackjack is now available again via [itch.io](https://uvegas.itch.io/blackjack-playtest) as a playable demo for testing.
-* ... TBA
 
 </details>
 
@@ -43,4 +42,3 @@ description: >-
 Initial release on [itch.io](https://uvegas.itch.io/blackjack-multiplayer) and ~~Unity Asset Store~~.
 
 </details>
-
